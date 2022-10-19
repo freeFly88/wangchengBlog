@@ -13,8 +13,17 @@ public class Result<T> {
         this.msg = code.getMsg();
         this.data = data;
     }
+
+    public Result(ResultCode code){
+        this.code = code.getCode();
+        this.msg = code.getMsg();
+    }
+
     public static <T> Result<T> success(T data) {
         return new Result<T>(ResultCode.SUCCESS,data);
+    }
+    public static <T> Result<T> success(){
+        return new Result<T>(ResultCode.SUCCESS);
     }
     public static <T> Result<T> error(T data) {
         return new Result<T>(ResultCode.ERROR, data);
