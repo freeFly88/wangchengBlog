@@ -1,0 +1,72 @@
+2022-10-12 11:01:24.595 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2022-10-12 11:01:24.598 [main] INFO  com.wang.blog.WangChengBlogApplication - Starting WangChengBlogApplication using Java 1.8.0_271 on DESKTOP-57IJCA8 with PID 31256 (E:\work-place-wang\wangChengBlog\blog-web\target\classes started by wangcheng in E:\work-place-wang\wangChengBlog)
+2022-10-12 11:01:24.599 [main] INFO  com.wang.blog.WangChengBlogApplication - The following 1 profile is active: "dev"
+2022-10-12 11:01:28.667 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-12 11:01:28.668 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-12 11:01:28.668 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-12 11:01:28.961 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-12 11:01:29.097 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-12 11:13:09.336 [main] INFO  com.wang.blog.WangChengBlogApplication - Starting WangChengBlogApplication using Java 1.8.0_271 on DESKTOP-57IJCA8 with PID 15984 (E:\work-place-wang\wangChengBlog\blog-web\target\classes started by wangcheng in E:\work-place-wang\wangChengBlog)
+2022-10-12 11:13:09.336 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2022-10-12 11:13:09.339 [main] INFO  com.wang.blog.WangChengBlogApplication - The following 1 profile is active: "dev"
+2022-10-12 11:13:11.106 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-12 11:13:11.107 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-12 11:13:11.107 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-12 11:13:11.250 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-12 11:13:11.313 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-12 11:17:04.461 [main] INFO  com.wang.blog.WangChengBlogApplication - Starting WangChengBlogApplication using Java 1.8.0_271 on DESKTOP-57IJCA8 with PID 13468 (E:\work-place-wang\wangChengBlog\blog-web\target\classes started by wangcheng in E:\work-place-wang\wangChengBlog)
+2022-10-12 11:17:04.461 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2022-10-12 11:17:04.464 [main] INFO  com.wang.blog.WangChengBlogApplication - The following 1 profile is active: "dev"
+2022-10-12 11:17:06.584 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-12 11:17:06.585 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-12 11:17:06.585 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-12 11:17:06.727 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-12 11:17:06.808 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-12 11:27:17.881 [main] INFO  com.wang.blog.WangChengBlogApplication - Starting WangChengBlogApplication using Java 1.8.0_271 on DESKTOP-57IJCA8 with PID 28340 (E:\work-place-wang\wangChengBlog\blog-web\target\classes started by wangcheng in E:\work-place-wang\wangChengBlog)
+2022-10-12 11:27:17.885 [main] INFO  com.wang.blog.WangChengBlogApplication - The following 1 profile is active: "dev"
+2022-10-12 11:27:17.892 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2022-10-12 11:27:20.033 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-12 11:27:20.034 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-12 11:27:20.034 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-12 11:27:20.236 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-12 11:27:20.320 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-12 11:27:42.030 [main] INFO  com.wang.blog.WangChengBlogApplication - Starting WangChengBlogApplication using Java 1.8.0_271 on DESKTOP-57IJCA8 with PID 28104 (E:\work-place-wang\wangChengBlog\blog-web\target\classes started by wangcheng in E:\work-place-wang\wangChengBlog)
+2022-10-12 11:27:42.030 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2022-10-12 11:27:42.034 [main] INFO  com.wang.blog.WangChengBlogApplication - The following 1 profile is active: "dev"
+2022-10-12 11:27:43.678 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-12 11:27:43.679 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-12 11:27:43.679 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-12 11:27:43.824 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-12 11:27:43.891 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-12 11:30:24.966 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2022-10-12 11:30:24.967 [main] INFO  com.wang.blog.WangChengBlogApplication - Starting WangChengBlogApplication using Java 1.8.0_271 on DESKTOP-57IJCA8 with PID 31444 (E:\work-place-wang\wangChengBlog\blog-web\target\classes started by wangcheng in E:\work-place-wang\wangChengBlog)
+2022-10-12 11:30:24.969 [main] INFO  com.wang.blog.WangChengBlogApplication - The following 1 profile is active: "dev"
+2022-10-12 11:30:26.535 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-12 11:30:26.535 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-12 11:30:26.536 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-12 11:30:26.675 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-12 11:30:26.737 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-12 11:35:53.003 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2022-10-12 11:35:53.006 [main] INFO  com.wang.blog.WangChengBlogApplication - Starting WangChengBlogApplication using Java 1.8.0_271 on DESKTOP-57IJCA8 with PID 23596 (E:\work-place-wang\wangChengBlog\blog-web\target\classes started by wangcheng in E:\work-place-wang\wangChengBlog)
+2022-10-12 11:35:53.007 [main] INFO  com.wang.blog.WangChengBlogApplication - The following 1 profile is active: "dev"
+2022-10-12 11:35:55.158 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-12 11:35:55.158 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-12 11:35:55.159 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-12 11:35:55.308 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-12 11:35:55.377 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-12 11:38:48.818 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2022-10-12 11:38:48.819 [main] INFO  com.wang.blog.WangChengBlogApplication - Starting WangChengBlogApplication using Java 1.8.0_271 on DESKTOP-57IJCA8 with PID 29212 (E:\work-place-wang\wangChengBlog\blog-web\target\classes started by wangcheng in E:\work-place-wang\wangChengBlog)
+2022-10-12 11:38:48.822 [main] INFO  com.wang.blog.WangChengBlogApplication - The following 1 profile is active: "dev"
+2022-10-12 11:38:50.496 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-12 11:38:50.497 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-12 11:38:50.497 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-12 11:38:50.640 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-12 11:38:50.713 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-10-12 11:41:39.038 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2022-10-12 11:41:39.041 [main] INFO  com.wang.blog.WangChengBlogApplication - Starting WangChengBlogApplication using Java 1.8.0_271 on DESKTOP-57IJCA8 with PID 14540 (E:\work-place-wang\wangChengBlog\blog-web\target\classes started by wangcheng in E:\work-place-wang\wangChengBlog)
+2022-10-12 11:41:39.041 [main] INFO  com.wang.blog.WangChengBlogApplication - The following 1 profile is active: "dev"
+2022-10-12 11:41:40.701 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-10-12 11:41:40.702 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-10-12 11:41:40.702 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-12 11:41:40.846 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-10-12 11:41:40.910 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]

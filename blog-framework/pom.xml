@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+
+    <parent>
+        <groupId>com.wang</groupId>
+        <artifactId>wang-blog</artifactId>
+        <version>0.1.0</version>
+    </parent>
+
+
+    <groupId>com.wang</groupId>
+    <artifactId>blog-framework</artifactId>
+    <version>0.1.0</version>
+    <name>blog-framework</name>
+    <description>wangChengBlog</description>
+
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+
+    <dependencies>
+
+        <!--  	系统模块 	-->
+        <dependency>
+            <groupId>com.wang</groupId>
+            <artifactId>blog-system</artifactId>
+        </dependency>
+
+        <!--  	通用模块 	-->
+        <dependency>
+            <groupId>com.wang</groupId>
+            <artifactId>blog-commons</artifactId>
+        </dependency>
+
+        <!--Apache IO常用工具类 -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.11.0</version>
+        </dependency>
+
+        <!-- SpringBoot AOP依赖 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+
+        <!-- 阿里云OSS SDK -->
+        <dependency>
+            <groupId>com.aliyun.oss</groupId>
+            <artifactId>aliyun-sdk-oss</artifactId>
+            <version>3.10.2</version>
+        </dependency>
+
+    </dependencies>
+    <build>
+    </build>
+
+</project>

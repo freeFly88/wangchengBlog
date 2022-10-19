@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.wang</groupId>
+    <artifactId>wang-blog</artifactId>
+    <version>0.1.0</version>
+    <name>wang-blog</name>
+    <description>wangChengBlog</description>
+
+
+    <packaging>pom</packaging>
+
+    <!--子模块-->
+    <modules>
+        <module>blog-commons</module>
+        <module>blog-framework</module>
+        <module>blog-system</module>
+        <module>blog-web</module>
+    </modules>
+
+
+    <properties>
+        <java.version>1.8</java.version>
+        <blog.version>0.1.0</blog.version>
+    </properties>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.7.4</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+
+    <!--版本声明-->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.wang</groupId>
+                <artifactId>blog-commons</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.wang</groupId>
+                <artifactId>blog-framework</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.wang</groupId>
+                <artifactId>blog-system</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.wang</groupId>
+                <artifactId>blog-web</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
+</project>
