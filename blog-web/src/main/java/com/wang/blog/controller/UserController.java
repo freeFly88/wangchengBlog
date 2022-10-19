@@ -1,7 +1,6 @@
 package com.wang.blog.controller;
 
 import com.wang.blogsystem.common.Result;
-import com.wang.blogsystem.common.SynProperties;
 import com.wang.blogsystem.domain.User;
 import com.wang.blogsystem.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
