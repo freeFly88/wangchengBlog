@@ -4,14 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.wang</groupId>
-        <artifactId>wang-blog</artifactId>
+        <artifactId>wangcheng-blog</artifactId>
         <version>0.1.0</version>
     </parent>
     <groupId>com.wang</groupId>
     <artifactId>blog-system</artifactId>
     <version>0.1.0</version>
     <name>blog-system</name>
-    <description>wangChengBlog</description>
+    <description>blog-system</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -29,7 +29,7 @@
             <scope>test</scope>
         </dependency>
 
-
+        <!--    通用模块    -->
         <dependency>
             <groupId>com.wang</groupId>
             <artifactId>blog-commons</artifactId>
@@ -61,6 +61,11 @@
             <version>2.2.0</version>
         </dependency>
 
+        <!-- SpringSecurity框架 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
 
         <!-- Swagger文档依赖 -->
         <dependency>
@@ -89,8 +94,6 @@
             <artifactId>pagehelper-spring-boot-starter</artifactId>
             <version>1.4.1</version>
         </dependency>
-
-
 
         <!-- JWT -->
         <dependency>

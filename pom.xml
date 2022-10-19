@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.wang</groupId>
-    <artifactId>wang-blog</artifactId>
+    <artifactId>wangcheng-blog</artifactId>
     <version>0.1.0</version>
-    <name>wang-blog</name>
-    <description>wangChengBlog</description>
-
+    <name>wangchengBlog</name>
+    <description>wangcheng的BLOG</description>
 
     <packaging>pom</packaging>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.6.1</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
 
-    <!--子模块-->
+    <properties>
+        <java.version>1.8</java.version>
+        <blog.version>0.1.0</blog.version>
+    </properties>
+
+    <!-- 模块声明 -->
     <modules>
         <module>blog-commons</module>
         <module>blog-framework</module>
@@ -21,21 +31,7 @@
         <module>blog-web</module>
     </modules>
 
-
-    <properties>
-        <java.version>1.8</java.version>
-        <blog.version>0.1.0</blog.version>
-    </properties>
-
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.4</version>
-        <relativePath/> <!-- lookup parent from repository -->
-    </parent>
-
-
-    <!--版本声明-->
+    <!--  版本声明  -->
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -61,5 +57,29 @@
         </dependencies>
     </dependencyManagement>
 
+    <!-- 设置阿里云仓库 -->
+    <repositories>
+        <repository>
+            <id>public</id>
+            <name>aliyun nexus</name>
+            <url>https://maven.aliyun.com/repository/public</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository>
+    </repositories>
 
+    <pluginRepositories>
+        <pluginRepository>
+            <id>public</id>
+            <name>aliyun nexus</name>
+            <url>https://maven.aliyun.com/repository/public</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
 </project>
