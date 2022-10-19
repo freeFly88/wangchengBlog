@@ -76,6 +76,10 @@ public class LoginServiceImpl implements LoginService {
         user.setCreateTime(new Date());
         user.setPhone(userDto.getPhone());
         Integer i = userMapper.save(user);
-        return null;
+        if (i>0){
+            return Result.success(i);
+        }else {
+            return Result.error(ResultCode.ERROR);
+        }
     }
 }
