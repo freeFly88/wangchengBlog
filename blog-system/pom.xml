@@ -118,18 +118,35 @@
             <scope>runtime</scope>
         </dependency>
 
-        <!-- kaptcha 验证码 -->
+
+        <!--图形验证码依赖-->
         <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>kaptcha-spring-boot-starter</artifactId>
-            <version>1.1.0</version>
+            <groupId>com.github.whvcse</groupId>
+            <artifactId>easy-captcha</artifactId>
+            <version>1.6.2</version>
         </dependency>
+
+        <!--阿里巴巴fastjson-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.44</version>
+        </dependency>
+
         <dependency>
             <groupId>jakarta.validation</groupId>
             <artifactId>jakarta.validation-api</artifactId>
             <version>2.0.2</version>
             <scope>compile</scope>
         </dependency>
+
+        <!-- pom 导包：hutool 工具 -->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-captcha</artifactId>
+            <version>5.8.5</version>
+        </dependency>
+
 
 
     </dependencies>

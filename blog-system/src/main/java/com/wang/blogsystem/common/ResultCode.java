@@ -5,8 +5,13 @@ public enum ResultCode {
     ERROR(500,"internal server error"),
     //登录
     LOGIN_ERROR(50001,"用户名或密码错误"),
-    CODE_ERROR(50002,"验证码为空"),
+    CODE_ERROR(50002,"验证码为空或已过期"),
+    CODE_ERROR_EMPTY(50002,"验证码为空或已过期"),
     USER_NOT(50003,"用户不存在"),
+    REGISTER_ERROR(50004,"注册失败"),
+    LOGIN_ERROR_EMPTY(50005,"用户名或密码为空"),
+
+
 
     //20001 ---- 参数异常
     PARAM_TYPE_INVALID(20001,"param type invalid"),

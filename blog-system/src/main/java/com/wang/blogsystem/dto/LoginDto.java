@@ -12,6 +12,17 @@ public class LoginDto {
 
     private  String  imgCode;
 
+    private  String imgCodeId;
+
+
+    public String getImgCodeId() {
+        return imgCodeId;
+    }
+
+    public void setImgCodeId(String imgCodeId) {
+        this.imgCodeId = imgCodeId;
+    }
+
     public String getLoginName() {
         return loginName;
     }

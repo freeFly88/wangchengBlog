@@ -5,8 +5,17 @@ import com.wang.blogsystem.common.ResultCode;
 
 import com.wang.blogsystem.dto.LoginDto;
 import com.wang.blogsystem.service.LoginService;
+import com.wf.captcha.SpecCaptcha;
+import com.wf.captcha.base.Captcha;
+import com.wf.captcha.utils.CaptchaUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.awt.*;
+import java.io.IOException;
+import java.util.UUID;
 
 /**
  * @author cheng
@@ -31,4 +40,8 @@ public class LoginController {
     }
 
 
+    @GetMapping("/getCode")
+    public Result getCode(HttpServletRequest request, HttpServletResponse response) throws IOException, FontFormatException {
+        return loginService.getCode(request,response);
+    }
 }

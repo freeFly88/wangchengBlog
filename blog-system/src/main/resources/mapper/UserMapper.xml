@@ -2,6 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.wang.blogsystem.mapper.UserMapper">
     <resultMap id="userMap" type="com.wang.blogsystem.domain.User">
+        <result property="id" column="id"/>
         <result property="username" column="username"/>
         <result property="password" column="password"/>
         <result property="phone" column="phone"/>
@@ -12,7 +13,7 @@
     </resultMap>
 
     <sql id="table_column">
-        username,phone,email,avatar,nickname
+       id,username,phone,email,avatar,nickname
     </sql>
 
     <sql id="sqlInsert">
@@ -44,7 +45,7 @@
 
 
     <insert id="save" parameterType="com.wang.blogsystem.domain.User">
-        insert into user(username,password,phone,eamil,avatar,nickname,create_time)
+        insert into user(username,password,phone,email,avatar,nickname,create_time)
         values
         (
         <include refid="sqlInsert"/>
@@ -52,7 +53,7 @@
     </insert>
 
     <select id="findList" resultType="com.wang.blogsystem.domain.User" parameterType="com.wang.blogsystem.domain.User">
-        select username,password from user where username = #{username} and password = #{password}
+        select id,username,password from user where username = #{username} and password = #{password}
     </select>
 
     <select id="page" resultType="com.wang.blogsystem.domain.User" parameterType="com.wang.blogsystem.domain.User">

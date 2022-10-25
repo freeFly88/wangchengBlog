@@ -5,6 +5,10 @@ import com.wang.blogsystem.domain.User;
 import com.wang.blogsystem.dto.LoginDto;
 import com.wang.blogsystem.dto.UserDto;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.awt.*;
+import java.io.IOException;
 import java.util.List;
 
 /**
@@ -17,4 +21,7 @@ public interface LoginService {
     Result login(LoginDto loginDto);
 
     Result register(UserDto userDto);
+
+    Result getCode(HttpServletRequest request, HttpServletResponse response) throws IOException, FontFormatException;
+
 }
